@@ -47,5 +47,10 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>msaidizi</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>msaidizi</string>
 </dict>
 </plist>
