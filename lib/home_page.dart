@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage> {
           ),
           // Features list
           Column(
-            children: [
+            children: const [
               FeatureBox(
                 color: Pallete.firstSuggestionBoxColor,
                 headerText: 'ChatGPT',
@@ -119,6 +119,13 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        backgroundColor: Pallete.firstSuggestionBoxColor,
+        child: const Icon(
+          Icons.mic,
+        ),
       ),
     );
   }
