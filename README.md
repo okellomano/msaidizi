@@ -8,7 +8,6 @@ This is a Flutter app that serves as a personal assistant using the power of Cha
   <li>Get information on various topics</li>
   <li>Schedule tasks and reminders</li>
   <li>Generate custom images using DALL-E</li>
-  <li>Save images to the device's gallery</li>  
 </ul>
 
 ## Getting Started
